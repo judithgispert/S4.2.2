@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class FruitService {
+public class FruitService implements IFruitService{
     @Autowired
     private IFruitRepo fruitRepo;
 
