@@ -31,7 +31,7 @@ public class Fruit {
     public void setName (String name){
         this.name = name;
     }
-    public void setQuantityKg(int quantityKg){
+    public void setQuantityKg(float quantityKg){
         this.quantityKg = quantityKg;
     }
 
